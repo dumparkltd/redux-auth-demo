@@ -1,0 +1,425 @@
+
+> redux-auth-demo@0.0.3 dev c:\Users\Timo\Documents\_git\undp\redux-auth-demo
+> concurrent --kill-others "npm run watch-client" "npm run start-dev"
+
+[0] 
+[0] > redux-auth-demo@0.0.3 watch-client c:\Users\Timo\Documents\_git\undp\redux-auth-demo
+[0] > better-npm-run watch-client
+[0] 
+[1] 
+[1] > redux-auth-demo@0.0.3 start-dev c:\Users\Timo\Documents\_git\undp\redux-auth-demo
+[1] > better-npm-run start-dev
+[1] 
+[0] running better-npm-run in c:\Users\Timo\Documents\_git\undp\redux-auth-demo
+[1] running better-npm-run in c:\Users\Timo\Documents\_git\undp\redux-auth-demo
+[0] Executing script: watch-client
+[0] 
+[0] to be executed: "node webpack/webpack-dev-server.js"
+[1] Executing script: start-dev
+[1] 
+[1] to be executed: "node ./bin/server.js"
+[0] ==> 🚧  Webpack development server listening on port 3001
+[1] ----
+[1] ==> ✅  Redux Auth is running, talking to API server on undefined.
+[1] ==> 💻  Open http://localhost:3000 in a browser to view the app.
+[0] ./src/client.js
+[0] 
+[0] c:\Users\Timo\Documents\_git\undp\redux-auth-demo\src\client.js
+[0]   25:5  error  Unexpected console statement  no-console
+[0] 
+[0] ✖ 1 problem (1 error, 0 warnings)
+[0] 
+[0] ./src/app.js
+[0] 
+[0] c:\Users\Timo\Documents\_git\undp\redux-auth-demo\src\app.js
+[0]    2:10  error  'Provider' is defined but never used          no-unused-vars
+[0]    4:3   error  'Router' is defined but never used            no-unused-vars
+[0]    5:3   error  'Route' is defined but never used             no-unused-vars
+[0]    6:3   error  'IndexRoute' is defined but never used        no-unused-vars
+[0]   17:8   error  'Container' is defined but never used         no-unused-vars
+[0]   18:8   error  'GlobalComponents' is defined but never used  no-unused-vars
+[0]   25:29  error  Unexpected trailing comma                     comma-dangle
+[0] 
+[0] ✖ 7 problems (7 errors, 0 warnings)
+[0] 
+[0] ./src/containers/Main.js
+[0] 
+[0] c:\Users\Timo\Documents\_git\undp\redux-auth-demo\src\containers\Main.js
+[0]   2:10  error  'PageHeader' is defined but never used  no-unused-vars
+[0] 
+[0] ✖ 1 problem (1 error, 0 warnings)
+[0] 
+[0] ./src/containers/Account.js
+[0] 
+[0] c:\Users\Timo\Documents\_git\undp\redux-auth-demo\src\containers\Account.js
+[0]    2:8   error  'IndexPanel' is defined but never used            no-unused-vars
+[0]    3:10  error  'PageHeader' is defined but never used            no-unused-vars
+[0]    3:22  error  'Row' is defined but never used                   no-unused-vars
+[0]    6:3   error  'SignOutButton' is defined but never used         no-unused-vars
+[0]    7:3   error  'DestroyAccountButton' is defined but never used  no-unused-vars
+[0]    8:3   error  'UpdatePasswordForm' is defined but never used    no-unused-vars
+[0]   16:42  error  Unexpected trailing comma                         comma-dangle
+[0]   52:69  error  Unexpected trailing comma                         comma-dangle
+[0] 
+[0] ✖ 8 problems (8 errors, 0 warnings)
+[0] 
+[0] ./src/containers/SignIn.js
+[0] 
+[0] c:\Users\Timo\Documents\_git\undp\redux-auth-demo\src\containers\SignIn.js
+[0]   2:8   error  'IndexPanel' is defined but never used                no-unused-vars
+[0]   3:8   error  'EmailSignUpForm' is defined but never used           no-unused-vars
+[0]   4:10  error  'PageHeader' is defined but never used                no-unused-vars
+[0]   4:22  error  'Row' is defined but never used                       no-unused-vars
+[0]   7:10  error  'EmailSignInForm' is defined but never used           no-unused-vars
+[0]   7:27  error  'RequestPasswordResetForm' is defined but never used  no-unused-vars
+[0] 
+[0] ✖ 6 problems (6 errors, 0 warnings)
+[0] 
+[0] ./src/components/Container.js
+[0] 
+[0] c:\Users\Timo\Documents\_git\undp\redux-auth-demo\src\components\Container.js
+[0]   2:10  error  'Grid' is defined but never used           no-unused-vars
+[0]   2:16  error  'Navbar' is defined but never used         no-unused-vars
+[0]   2:24  error  'NavItem' is defined but never used        no-unused-vars
+[0]   2:33  error  'Nav' is defined but never used            no-unused-vars
+[0]   3:10  error  'LinkContainer' is defined but never used  no-unused-vars
+[0] 
+[0] ✖ 5 problems (5 errors, 0 warnings)
+[0] 
+[0] ./src/components/GlobalComponents.js
+[0] 
+[0] c:\Users\Timo\Documents\_git\undp\redux-auth-demo\src\components\GlobalComponents.js
+[0]   2:13  error  'BSTheme' is defined but never used  no-unused-vars
+[0] 
+[0] ✖ 1 problem (1 error, 0 warnings)
+[0] 
+[0] ./src/components/IndexPanel.js
+[0] 
+[0] c:\Users\Timo\Documents\_git\undp\redux-auth-demo\src\components\IndexPanel.js
+[0]   2:10  error  'Panel' is defined but never used  no-unused-vars
+[0]   2:17  error  'Col' is defined but never used    no-unused-vars
+[0] 
+[0] ✖ 2 problems (2 errors, 0 warnings)
+[0] 
+[0] ./src/views/EmailSignUpForm.js
+[0] 
+[0] c:\Users\Timo\Documents\_git\undp\redux-auth-demo\src\views\EmailSignUpForm.js
+[0]   2:8   error  'Input' is defined but never used         no-unused-vars
+[0]   3:8   error  'ButtonLoader' is defined but never used  no-unused-vars
+[0]   6:10  error  'Glyphicon' is defined but never used     no-unused-vars
+[0] 
+[0] ✖ 3 problems (3 errors, 0 warnings)
+[0] 
+[0] ./src/views/Input.js
+[0] 
+[0] c:\Users\Timo\Documents\_git\undp\redux-auth-demo\src\views\Input.js
+[0]   2:10  error  'Input' is defined but never used      no-unused-vars
+[0]   2:17  error  'Glyphicon' is defined but never used  no-unused-vars
+[0] 
+[0] ✖ 2 problems (2 errors, 0 warnings)
+[0] 
+[0] ./src/utils/session-storage.js
+[0] 
+[0] c:\Users\Timo\Documents\_git\undp\redux-auth-demo\src\utils\session-storage.js
+[0]   79:2  error  Unnecessary semicolon  no-extra-semi
+[0] 
+[0] ✖ 1 problem (1 error, 0 warnings)
+[0] 
+[0] ./src/utils/handle-fetch-response.js
+[0] 
+[0] c:\Users\Timo\Documents\_git\undp\redux-auth-demo\src\utils\handle-fetch-response.js
+[0]   6:29  error  'Promise' is not defined  no-undef
+[0] 
+[0] ✖ 1 problem (1 error, 0 warnings)
+[0] 
+[0] webpack built 346d1488e090b13eb2fa in 17459ms
+[1] [31m[1m[piping][22m[39m File src\utils\fetch.js has changed, reloading.
+[0] webpack building...
+[0] ./src/client.js
+[0] 
+[0] c:\Users\Timo\Documents\_git\undp\redux-auth-demo\src\client.js
+[0]   25:5  error  Unexpected console statement  no-console
+[0] 
+[0] ✖ 1 problem (1 error, 0 warnings)
+[0] 
+[0] ./src/app.js
+[0] 
+[0] c:\Users\Timo\Documents\_git\undp\redux-auth-demo\src\app.js
+[0]    2:10  error  'Provider' is defined but never used          no-unused-vars
+[0]    4:3   error  'Router' is defined but never used            no-unused-vars
+[0]    5:3   error  'Route' is defined but never used             no-unused-vars
+[0]    6:3   error  'IndexRoute' is defined but never used        no-unused-vars
+[0]   17:8   error  'Container' is defined but never used         no-unused-vars
+[0]   18:8   error  'GlobalComponents' is defined but never used  no-unused-vars
+[0]   25:29  error  Unexpected trailing comma                     comma-dangle
+[0] 
+[0] ✖ 7 problems (7 errors, 0 warnings)
+[0] 
+[0] ./src/containers/Main.js
+[0] 
+[0] c:\Users\Timo\Documents\_git\undp\redux-auth-demo\src\containers\Main.js
+[0]   2:10  error  'PageHeader' is defined but never used  no-unused-vars
+[0] 
+[0] ✖ 1 problem (1 error, 0 warnings)
+[0] 
+[0] ./src/containers/Account.js
+[0] 
+[0] c:\Users\Timo\Documents\_git\undp\redux-auth-demo\src\containers\Account.js
+[0]    2:8   error  'IndexPanel' is defined but never used            no-unused-vars
+[0]    3:10  error  'PageHeader' is defined but never used            no-unused-vars
+[0]    3:22  error  'Row' is defined but never used                   no-unused-vars
+[0]    6:3   error  'SignOutButton' is defined but never used         no-unused-vars
+[0]    7:3   error  'DestroyAccountButton' is defined but never used  no-unused-vars
+[0]    8:3   error  'UpdatePasswordForm' is defined but never used    no-unused-vars
+[0]   16:42  error  Unexpected trailing comma                         comma-dangle
+[0]   52:69  error  Unexpected trailing comma                         comma-dangle
+[0] 
+[0] ✖ 8 problems (8 errors, 0 warnings)
+[0] 
+[0] ./src/containers/SignIn.js
+[0] 
+[0] c:\Users\Timo\Documents\_git\undp\redux-auth-demo\src\containers\SignIn.js
+[0]   2:8   error  'IndexPanel' is defined but never used                no-unused-vars
+[0]   3:8   error  'EmailSignUpForm' is defined but never used           no-unused-vars
+[0]   4:10  error  'PageHeader' is defined but never used                no-unused-vars
+[0]   4:22  error  'Row' is defined but never used                       no-unused-vars
+[0]   7:10  error  'EmailSignInForm' is defined but never used           no-unused-vars
+[0]   7:27  error  'RequestPasswordResetForm' is defined but never used  no-unused-vars
+[0] 
+[0] ✖ 6 problems (6 errors, 0 warnings)
+[0] 
+[0] ./src/components/Container.js
+[0] 
+[0] c:\Users\Timo\Documents\_git\undp\redux-auth-demo\src\components\Container.js
+[0]   2:10  error  'Grid' is defined but never used           no-unused-vars
+[0]   2:16  error  'Navbar' is defined but never used         no-unused-vars
+[0]   2:24  error  'NavItem' is defined but never used        no-unused-vars
+[0]   2:33  error  'Nav' is defined but never used            no-unused-vars
+[0]   3:10  error  'LinkContainer' is defined but never used  no-unused-vars
+[0] 
+[0] ✖ 5 problems (5 errors, 0 warnings)
+[0] 
+[0] ./src/components/GlobalComponents.js
+[0] 
+[0] c:\Users\Timo\Documents\_git\undp\redux-auth-demo\src\components\GlobalComponents.js
+[0]   2:13  error  'BSTheme' is defined but never used  no-unused-vars
+[0] 
+[0] ✖ 1 problem (1 error, 0 warnings)
+[0] 
+[0] ./src/components/IndexPanel.js
+[0] 
+[0] c:\Users\Timo\Documents\_git\undp\redux-auth-demo\src\components\IndexPanel.js
+[0]   2:10  error  'Panel' is defined but never used  no-unused-vars
+[0]   2:17  error  'Col' is defined but never used    no-unused-vars
+[0] 
+[0] ✖ 2 problems (2 errors, 0 warnings)
+[0] 
+[0] ./src/views/EmailSignUpForm.js
+[0] 
+[0] c:\Users\Timo\Documents\_git\undp\redux-auth-demo\src\views\EmailSignUpForm.js
+[0]   2:8   error  'Input' is defined but never used         no-unused-vars
+[0]   3:8   error  'ButtonLoader' is defined but never used  no-unused-vars
+[0]   6:10  error  'Glyphicon' is defined but never used     no-unused-vars
+[0] 
+[0] ✖ 3 problems (3 errors, 0 warnings)
+[0] 
+[0] ./src/views/Input.js
+[0] 
+[0] c:\Users\Timo\Documents\_git\undp\redux-auth-demo\src\views\Input.js
+[0]   2:10  error  'Input' is defined but never used      no-unused-vars
+[0]   2:17  error  'Glyphicon' is defined but never used  no-unused-vars
+[0] 
+[0] ✖ 2 problems (2 errors, 0 warnings)
+[0] 
+[0] ./src/utils/session-storage.js
+[0] 
+[0] c:\Users\Timo\Documents\_git\undp\redux-auth-demo\src\utils\session-storage.js
+[0]   79:2  error  Unnecessary semicolon  no-extra-semi
+[0] 
+[0] ✖ 1 problem (1 error, 0 warnings)
+[0] 
+[0] ./src/utils/handle-fetch-response.js
+[0] 
+[0] c:\Users\Timo\Documents\_git\undp\redux-auth-demo\src\utils\handle-fetch-response.js
+[0]   6:29  error  'Promise' is not defined  no-undef
+[0] 
+[0] ✖ 1 problem (1 error, 0 warnings)
+[0] 
+[0] ./src/utils/fetch.js
+[0] 
+[0] c:\Users\Timo\Documents\_git\undp\redux-auth-demo\src\utils\fetch.js
+[0]   12:1   error    Unexpected var, use let or const instead                                                                    no-var
+[0]   12:20  warning  Missing function expression name                                                                            func-names
+[0]   12:28  error    Missing space before function parentheses                                                                   space-before-function-paren
+[0]   32:5   error    All 'var' declarations must be at the top of the function scope                                             vars-on-top
+[0]   32:5   error    Split 'var' declarations into multiple statements                                                           one-var
+[0]   32:5   error    Unexpected var, use let or const instead                                                                    no-var
+[0]   33:9   error    Expected indentation of 6 space characters but found 8                                                      indent
+[0]   39:5   error    The body of a for-in should be wrapped in an if statement to filter unwanted properties from the prototype  guard-for-in
+[0]   39:5   error    Using 'ForInStatement' is not allowed                                                                       no-restricted-syntax
+[0]   39:10  error    Unexpected var, use let or const instead                                                                    no-var
+[0]   39:10  error    All 'var' declarations must be at the top of the function scope                                             vars-on-top
+[0]   44:10  error    Unexpected 'else' after 'return'                                                                            no-else-return
+[0]   53:5   error    Unexpected var, use let or const instead                                                                    no-var
+[0]   53:5   error    All 'var' declarations must be at the top of the function scope                                             vars-on-top
+[0]   57:5   error    All 'var' declarations must be at the top of the function scope                                             vars-on-top
+[0]   57:5   error    Unexpected var, use let or const instead                                                                    no-var
+[0]   60:5   error    The body of a for-in should be wrapped in an if statement to filter unwanted properties from the prototype  guard-for-in
+[0]   60:5   error    Using 'ForInStatement' is not allowed                                                                       no-restricted-syntax
+[0]   60:10  error    All 'var' declarations must be at the top of the function scope                                             vars-on-top
+[0]   60:10  error    Unexpected var, use let or const instead                                                                    no-var
+[0]   77:24  error    Missing space before function parentheses                                                                   space-before-function-paren
+[0]   77:37  error    Infix operators must be spaced                                                                              space-infix-ops
+[0]   79:5   error    Assignment to property of function parameter 'options'                                                      no-param-reassign
+[0] 
+[0] ✖ 23 problems (22 errors, 1 warning)
+[0] 
+[0] webpack built 346d1488e090b13eb2fa in 3772ms
+[1] ----
+[1] ==> ✅  Redux Auth is running, talking to API server on undefined.
+[1] ==> 💻  Open http://localhost:3000 in a browser to view the app.
+Terminate batch job (Y/N)? 
+
+> redux-auth-demo@0.0.3 dev c:\Users\Timo\Documents\_git\undp\redux-auth-demo
+> concurrent --kill-others "npm run watch-client" "npm run start-dev"
+
+[0] 
+[0] > redux-auth-demo@0.0.3 watch-client c:\Users\Timo\Documents\_git\undp\redux-auth-demo
+[0] > better-npm-run watch-client
+[0] 
+[1] 
+[1] > redux-auth-demo@0.0.3 start-dev c:\Users\Timo\Documents\_git\undp\redux-auth-demo
+[1] > better-npm-run start-dev
+[1] 
+[0] running better-npm-run in c:\Users\Timo\Documents\_git\undp\redux-auth-demo
+[0] Executing script: watch-client
+[0] 
+[0] to be executed: "node webpack/webpack-dev-server.js"
+[1] running better-npm-run in c:\Users\Timo\Documents\_git\undp\redux-auth-demo
+[1] Executing script: start-dev
+[1] 
+[1] to be executed: "node ./bin/server.js"
+[0] ==> 🚧  Webpack development server listening on port 3001
+[1] ----
+[1] ==> ✅  Redux Auth is running, talking to API server on undefined.
+[1] ==> 💻  Open http://localhost:3000 in a browser to view the app.
+[0] ./src/actions/email-sign-up.js
+[0] 
+[0] c:\Users\Timo\Documents\_git\undp\redux-auth-demo\src\actions\email-sign-up.js
+[0]    1:8   error  A space is required after '{'                 object-curly-spacing
+[0]    1:53  error  A space is required before '}'                object-curly-spacing
+[0]    1:56  error  Multiple spaces found before 'from'           no-multi-spaces
+[0]    1:61  error  Strings must use singlequote                  quotes
+[0]    2:8   error  A space is required after '{'                 object-curly-spacing
+[0]    2:22  error  A space is required before '}'                object-curly-spacing
+[0]    2:29  error  Strings must use singlequote                  quotes
+[0]    3:20  error  Strings must use singlequote                  quotes
+[0]    4:19  error  Strings must use singlequote                  quotes
+[0]    6:40  error  Multiple spaces found before '='              no-multi-spaces
+[0]    6:42  error  Strings must use singlequote                  quotes
+[0]    7:40  error  Multiple spaces found before '='              no-multi-spaces
+[0]    7:42  error  Strings must use singlequote                  quotes
+[0]    8:40  error  Multiple spaces found before '='              no-multi-spaces
+[0]    8:42  error  Strings must use singlequote                  quotes
+[0]    9:42  error  Strings must use singlequote                  quotes
+[0]   29:9   error  Unnecessarily quoted property 'Accept' found  quote-props
+[0]   29:9   error  Strings must use singlequote                  quotes
+[0]   29:19  error  Strings must use singlequote                  quotes
+[0]   30:9   error  Strings must use singlequote                  quotes
+[0]   30:25  error  Strings must use singlequote                  quotes
+[0]   32:15  error  Strings must use singlequote                  quotes
+[0]   38:14  error  A space is required after '{'                 object-curly-spacing
+[0]   38:19  error  A space is required before '}'                object-curly-spacing
+[0]   39:15  error  A space is required after '{'                 object-curly-spacing
+[0]   39:22  error  A space is required before '}'                object-curly-spacing
+[0] 
+[0] ✖ 26 problems (26 errors, 0 warnings)
+[0] 
+[0] ./src/utils/handle-fetch-response.js
+[0] 
+[0] c:\Users\Timo\Documents\_git\undp\redux-auth-demo\src\utils\handle-fetch-response.js
+[0]   1:30  error  Unexpected space before function parentheses     space-before-function-paren
+[0]   2:7   error  'json' is never reassigned, use 'const' instead  prefer-const
+[0]   5:10  error  Unexpected 'else' after 'return'                 no-else-return
+[0] 
+[0] ✖ 3 problems (3 errors, 0 warnings)
+[0] 
+[0] ./src/utils/fetch.js
+[0] 
+[0] c:\Users\Timo\Documents\_git\undp\redux-auth-demo\src\utils\fetch.js
+[0]   12:1   error    Unexpected var, use let or const instead                                                                    no-var
+[0]   12:20  warning  Missing function expression name                                                                            func-names
+[0]   12:28  error    Missing space before function parentheses                                                                   space-before-function-paren
+[0]   32:5   error    All 'var' declarations must be at the top of the function scope                                             vars-on-top
+[0]   32:5   error    Split 'var' declarations into multiple statements                                                           one-var
+[0]   32:5   error    Unexpected var, use let or const instead                                                                    no-var
+[0]   33:9   error    Expected indentation of 6 space characters but found 8                                                      indent
+[0]   39:5   error    The body of a for-in should be wrapped in an if statement to filter unwanted properties from the prototype  guard-for-in
+[0]   39:5   error    Using 'ForInStatement' is not allowed                                                                       no-restricted-syntax
+[0]   39:10  error    Unexpected var, use let or const instead                                                                    no-var
+[0]   39:10  error    All 'var' declarations must be at the top of the function scope                                             vars-on-top
+[0]   44:10  error    Unexpected 'else' after 'return'                                                                            no-else-return
+[0]   53:5   error    Unexpected var, use let or const instead                                                                    no-var
+[0]   53:5   error    All 'var' declarations must be at the top of the function scope                                             vars-on-top
+[0]   57:5   error    All 'var' declarations must be at the top of the function scope                                             vars-on-top
+[0]   57:5   error    Unexpected var, use let or const instead                                                                    no-var
+[0]   60:5   error    The body of a for-in should be wrapped in an if statement to filter unwanted properties from the prototype  guard-for-in
+[0]   60:5   error    Using 'ForInStatement' is not allowed                                                                       no-restricted-syntax
+[0]   60:10  error    All 'var' declarations must be at the top of the function scope                                             vars-on-top
+[0]   60:10  error    Unexpected var, use let or const instead                                                                    no-var
+[0]   77:24  error    Missing space before function parentheses                                                                   space-before-function-paren
+[0]   77:37  error    Infix operators must be spaced                                                                              space-infix-ops
+[0]   79:5   error    Assignment to property of function parameter 'options'                                                      no-param-reassign
+[0] 
+[0] ✖ 23 problems (22 errors, 1 warning)
+[0] 
+[0] ./src/utils/session-storage.js
+[0] 
+[0] c:\Users\Timo\Documents\_git\undp\redux-auth-demo\src\utils\session-storage.js
+[0]     7:14   error  The Function constructor is eval                                                                            no-new-func
+[0]     7:48   error  eval can be harmful                                                                                         no-eval
+[0]    33:3    error  'persistData' was used before it was defined                                                                no-use-before-define
+[0]    33:40   error  'getDefaultEndpointKey' was used before it was defined                                                      no-use-before-define
+[0]    37:10   error  'retrieveData' was used before it was defined                                                               no-use-before-define
+[0]    37:46   error  'getDefaultEndpointKey' was used before it was defined                                                      no-use-before-define
+[0]    41:3    error  'persistData' was used before it was defined                                                                no-use-before-define
+[0]    45:10   error  'retrieveData' was used before it was defined                                                               no-use-before-define
+[0]    51:37   error  Multiple spaces found before '='                                                                            no-multi-spaces
+[0]    52:37   error  Multiple spaces found before '='                                                                            no-multi-spaces
+[0]    53:3    error  'destroySession' was used before it was defined                                                             no-use-before-define
+[0]    57:3    error  Unexpected var, use let or const instead                                                                    no-var
+[0]    62:3    error  The body of a for-in should be wrapped in an if statement to filter unwanted properties from the prototype  guard-for-in
+[0]    62:3    error  Using 'ForInStatement' is not allowed                                                                       no-restricted-syntax
+[0]    62:8    error  All 'var' declarations must be at the top of the function scope                                             vars-on-top
+[0]    62:8    error  Unexpected var, use let or const instead                                                                    no-var
+[0]    78:39   error  Strings must use singlequote                                                                                quotes
+[0]    79:2    error  Unnecessary semicolon                                                                                       no-extra-semi
+[0]    91:7    error  'key' is never reassigned, use 'const' instead                                                              prefer-const
+[0]    93:5    error  Expected an object to be thrown                                                                             no-throw-literal
+[0]   105:13   error  'getApiUrl' was used before it was defined                                                                  no-use-before-define
+[0]   105:89   error  Missing semicolon                                                                                           semi
+[0]   110:13   error  'getApiUrl' was used before it was defined                                                                  no-use-before-define
+[0]   110:83   error  Missing semicolon                                                                                           semi
+[0]   114:13   error  'getApiUrl' was used before it was defined                                                                  no-use-before-define
+[0]   114:87   error  Missing semicolon                                                                                           semi
+[0]   118:1    error  Line 118 exceeds the maximum line length of 100                                                             max-len
+[0]   118:13   error  'getApiUrl' was used before it was defined                                                                  no-use-before-define
+[0]   118:120  error  Missing semicolon                                                                                           semi
+[0]   122:1    error  Line 122 exceeds the maximum line length of 100                                                             max-len
+[0]   122:13   error  'getApiUrl' was used before it was defined                                                                  no-use-before-define
+[0]   122:116  error  Missing semicolon                                                                                           semi
+[0]   126:13   error  'getApiUrl' was used before it was defined                                                                  no-use-before-define
+[0]   126:90   error  Missing semicolon                                                                                           semi
+[0]   130:13   error  'getApiUrl' was used before it was defined                                                                  no-use-before-define
+[0]   130:91   error  Missing semicolon                                                                                           semi
+[0]   138:29   error  A space is required after '{'                                                                               object-curly-spacing
+[0]   138:59   error  A space is required before '}'                                                                              object-curly-spacing
+[0]   139:3    error  Unexpected var, use let or const instead                                                                    no-var
+[0]   139:18   error  Unexpected string concatenation                                                                             prefer-template
+[0]   145:5    error  The body of a for-in should be wrapped in an if statement to filter unwanted properties from the prototype  guard-for-in
+[0]   145:5    error  Using 'ForInStatement' is not allowed                                                                       no-restricted-syntax
+[0] 
+[0] ✖ 42 problems (42 errors, 0 warnings)
+[0] 
+[0] webpack built 346d1488e090b13eb2fa in 18863ms
+Terminate batch job (Y/N)? 

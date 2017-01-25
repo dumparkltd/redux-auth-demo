@@ -27,7 +27,8 @@
     "no-underscore-dangle": 0,
     "global-require": 0,
     "max-statements": [2, 30],
-    "complexity": [2, 6]
+    "complexity": [2, 6],
+    "no-param-reassign": 0
   },
   "plugins": [
     "react", "import"
